@@ -1,20 +1,15 @@
-/* Custom Primary Color */
 .text-custom-primary {
     color: #6a5acd !important;
-    /* Slate Blue */
     font-weight: bold;
 }
 
 /* Custom Dark Text Color */
 .text-custom-dark {
     color: #3a3b3c !important;
-    /* Dark Charcoal */
 }
 
-/* New Button Styles */
 .btn-new-success {
     background-color: #28a745;
-    /* Green */
     border-color: #28a745;
 }
 
