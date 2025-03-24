@@ -22,6 +22,7 @@ export class AddUserComponent implements OnInit {
     });
   }
 
+  //shortcut to access the controls inside the FormGroup
   get f() {
     return this.userForm.controls;
   }
@@ -34,6 +35,12 @@ export class AddUserComponent implements OnInit {
 
     console.log('✅ User Form Submitted:', this.userForm.value);
     this.success = true;
+
+    // Auto-hide the success message
+    setTimeout(() => {
+      this.success = false;
+    }, 3000);
+
     this.userForm.reset();
     this.submitted = false;
   }

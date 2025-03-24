@@ -1,4 +1,46 @@
-.btn-group .btn {
-    min-width: 120px;
-    margin: 0 5px;
+/* Custom Primary Color */
+.text-custom-primary {
+    color: #6a5acd !important;
+    /* Slate Blue */
+    font-weight: bold;
+}
+
+/* Custom Dark Text Color */
+.text-custom-dark {
+    color: #3a3b3c !important;
+    /* Dark Charcoal */
+}
+
+/* New Button Styles */
+.btn-new-success {
+    background-color: #28a745;
+    /* Green */
+    border-color: #28a745;
+}
+
+.btn-new-success:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+.btn-new-warning {
+    background-color: #ffc107;
+    /* Yellow */
+    border-color: #ffc107;
+}
+
+.btn-new-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+.btn-new-danger {
+    background-color: #dc3545;
+    /* Red */
+    border-color: #dc3545;
+}
+
+.btn-new-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
 }

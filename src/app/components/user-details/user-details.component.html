@@ -3,7 +3,8 @@
     <div class="card-header bg-primary text-white">
       <h5 class="mb-0">{{ user?.name }}'s Details</h5>
     </div>
-    <div class="card-body" *ngIf="user">
+
+    <div class="card-body" *ngIf="user"> <!-- Make sure the user details are only shown after the data has been loaded -->
       <p><strong>Email:</strong> {{ user.email }}</p>
       <p><strong>Phone:</strong> {{ user.phone }}</p>
       <p><strong>Website:</strong> {{ user.website }}</p>
@@ -21,7 +22,9 @@
       <p><strong>Catch Phrase:</strong> {{ user.company?.catchPhrase }}</p>
       <p><strong>Business:</strong> {{ user.company?.bs }}</p>
 
-      <a class="btn btn-secondary mt-3" routerLink="/dashboard">Back to Dashboard</a>
+      <a class="btn btn-secondary mt-3" routerLink="/dashboard"
+        >Back to Dashboard</a
+      >
     </div>
   </div>
 </div>
