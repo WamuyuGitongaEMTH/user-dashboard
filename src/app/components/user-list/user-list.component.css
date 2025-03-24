@@ -1,0 +1,12 @@
+h3 {
+    font-weight: bold;
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+input.form-control {
+    max-width: 400px;
+}
