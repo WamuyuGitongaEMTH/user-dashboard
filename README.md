@@ -1,4 +1,3 @@
-Sure! Here's a shorter version of the `README.md`:
 
 ```markdown
 # 🧩 Angular User Dashboard
