@@ -1,27 +1,80 @@
-# Test2
+Sure! Here's a shorter version of the `README.md`:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+```markdown
+# 🧩 Angular User Dashboard
 
-## Development server
+A responsive user dashboard built with Angular and Bootstrap, showcasing component architecture, form handling, routing, and state management.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Displays a list of users from local mock data
+- Real-time search by name or email
+- Delete user functionality (in-memory)
+- View full user details on a separate route
+- Add user form with real-time validation
+- Counter with live updates via a shared service
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tech Stack
 
-## Running unit tests
+- [Angular 17+](https://angular.io/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- TypeScript & HTML5
+- RxJS
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 📁 Project Structure
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+src/app/
+│
+├── components/
+│   ├── navbar/
+│   ├── user-list/
+│   ├── user-details/
+│   ├── add-user/
+│   └── counter/
+│
+├── services/
+│   ├── user.service.ts
+│   └── counter.service.ts
+```
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## How to Run
+
+```bash
+git clone https://github.com/WamuyuGitongaEMTH/user-dashboard.git
+cd user-dashboard
+npm install
+ng serve
+```
+
+Open your browser at:
+👉 `http://localhost:4200`
+
+---
+
+## Notes
+
+- User data is fetched from `src/assets/mock-data/users.json`
+- Deleting a user is temporary (in-memory)
+
+---
+
+## Future Improvements
+
+- Connect to a real backend API
+- Add user editing functionality
+- Persist changes using local storage or a backend
+- Add pagination to the dashboard table
+
+---
+
+> Built with care by Wamuyu Gitonga
+```
